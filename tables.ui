@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1245</width>
+    <height>564</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>1221</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="sizeAdjustPolicy">
+    <enum>QAbstractScrollArea::AdjustToContents</enum>
+   </property>
+   <property name="dragEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="alternatingRowColors">
+    <bool>true</bool>
+   </property>
+   <property name="verticalScrollMode">
+    <enum>QAbstractItemView::ScrollPerItem</enum>
+   </property>
+   <property name="showGrid">
+    <bool>true</bool>
+   </property>
+   <property name="gridStyle">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="cornerButtonEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="rowCount">
+    <number>0</number>
+   </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="horizontalHeaderCascadingSectionResizes">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>19</number>
+   </attribute>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>100</number>
+   </attribute>
+   <attribute name="horizontalHeaderHighlightSections">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>29</number>
+   </attribute>
+   <attribute name="verticalHeaderHighlightSections">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="verticalHeaderStretchLastSection">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>MODE</string>
+    </property>
+    <property name="foreground">
+     <brush brushstyle="SolidPattern">
+      <color alpha="255">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>TP_RELEASED</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ALT</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>TEMP</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>VOLTAGE</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>GPS_TIME</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>GPS_LAT</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>GPS_LONG</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>GPS_ALT</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>GPS_SAT</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>SW_STATE</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>CMD_ECHO</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>340</y>
+     <width>1221</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="sizeAdjustPolicy">
+    <enum>QAbstractScrollArea::AdjustToContents</enum>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>88</number>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>TP_ALT</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>TP_TEMP</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>GYRO_R</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>GYRO_P</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>GYRO_Y</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ACCEL_R</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ACCEL_P</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ACCEL_Y</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>MAG_R</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>MAG_P</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>MAG_Y</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>POINTING_ERROR</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>TP_SW_STATE</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
